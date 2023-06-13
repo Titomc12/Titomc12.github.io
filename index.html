@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#education">Educación</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="profile">
+      <img src="images/ww44.jpeg" alt="Foto de perfil">
+    </div>
+    <section id="about">
+      <h2>Sobre Mí</h2>
+      <p>Hola mi nombre es <strong>jhon gomez</strong> tengo 19 años . me gusta escuchar musica y inspirar a los demas para un enfoque para su entorno día a día y me gusta desarrollar y configurar proyectos publicos y privados , eh desarrollado diversos proyectos pero entre unos de ellos se encuentra en Linea.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>
+          <h3>Título del trabajo</h3>
+          <p>Soy el CEO de un proyecto que cree hace dos años y esta se encuentra de manera vigente su rol tiene de varias opciones de modavilidad pero en algunas de ellas se encurentra publicas y otras quedaron pedientes y entre otras cosas algunos proyectos fueron cancelados antes ser visto al publico.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Educación</h2>
+      <ul>
+        <li>
+          <h3>Título del grado o certificado</h3>
+          <p>Unidad educativa Ernesto Alban Mosquera</p>
+          <h3>Titulo de grado</h3>
+          <p>CIENCIAS</p>
+          <h3>Fecha de graduación</h3>
+          <p>01 de marzo del 2023</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>
+          <h3>HTML</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;">80%</div>
+          </div>
+        </li>
+        <li>
+          <h3>CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 40%;">40%</div>
+          </div>
+        </li>
+        <li>
+          <h3>JAVASCRIPT</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 20%;">20%</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li>
+          <h3>ComunityBlogs</h3>
+          <p>es un proyecto que se basa en el gusto de las personas es decir :  <strong>LEER , ESCUCHAR MUSICA , VER VIDEOS. JUEGOS EDUCATIVOS</strong> , entre otros y mi rol en el soy el creador de este proyecto y mi proposito de el es para educar tanto a niños y adolecentes.</p>
+          <a href="https://comunityblogs.github.io/" style="color: black; text-decoration: #333;">MI WEB</a> <P>👆Click en el enlace</P>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <ul>
+        <li>
+          <h3>Redes Sociales</h3>
+          <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/jhon-gomez-31558426b/" target="_blank"><img src="images/png-transparent-social-media-logo-linkedin-computer-icons-social-media-blue-text-trademark-thumbnail.png" alt="LinkedIn"></a>linkedin</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Correo Electrónico</h3>
+          <p>Puedes contactarme a través de <a href="mailto:tuemail@gmail.com">gomezjz@tiffin.edu</a>.</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
+  </footer>
+</body>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.profile {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.progress {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+  border-radius: 4px;
+  text-align: center;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.social-links li a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #333;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links li a img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+</style>
+</html>
+
+<script>
+    // Función para deshabilitar el menú contextual
+    function disableRightClick(event) {
+      event.preventDefault();
+    }
+
+    // Evento de clic derecho
+    window.addEventListener('contextmenu', disableRightClick);
+  </script>
